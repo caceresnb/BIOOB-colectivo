@@ -1,0 +1,307 @@
+.bg-marroon {
+  background-color: #4c3b3b;
+}
+.color-marroon {
+  color: #4c3b3b;
+}
+.nav-link {
+  color: #4c3b3b !important;
+}
+
+.logo-bioob {
+  width: 120px;
+  height: 30px;
+  object-fit: cover;
+}
+
+.slices img {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+}
+
+.flickity-button {
+  z-index: 5;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 550px;
+  background-color: rgba(76, 59, 59, 0.8);
+  z-index: 2;
+  text-align: center;
+  line-height: 550px;
+}
+.overlay img {
+  width: 350px;
+  height: 250px;
+  object-fit: contain;
+}
+
+.bioob-objetivo {
+  padding: 3.5rem;
+  padding-bottom: 4.5rem;
+}
+
+.bioob-objetivo .text-bioob {
+  max-width: 350px;
+  margin: 0 auto;
+  font-weight: 300;
+}
+.services {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 480px;
+}
+.services::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(76, 59, 59, 0.6);
+}
+.services p {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  font-size: 1.8rem;
+  line-height: 70px;
+}
+.bg-capacitacion {
+  background-color: #915a31;
+}
+.bg-vinculacion {
+  background-color: #135055;
+}
+.bg-talleres {
+  background-color: #9c8f7e;
+}
+.bg-investigacion {
+  background-color: #4e3a3b;
+}
+
+.services img {
+  position: relative;
+  z-index: 2;
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.services.capacitacion {
+  background-image: url("../img/capacitacion-home.jpg");
+}
+.services.vinculacion {
+  background-image: url("../img/BIOOB-vinculacion.jpg");
+}
+.services.talleres {
+  background-image: url("../img/BIOOB-talleres.jpg");
+}
+.services.investigacion {
+  background-image: url("../img/BIOOB-investigacion.jpg");
+}
+
+.description {
+  background-color: #4c3b3b;
+  padding: 2.5rem;
+}
+.description .text {
+  max-width: 500px;
+  margin: 0 auto;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+
+/***********TASHI**********/
+footer {
+  text-align: left;
+  flex-wrap: nowrap;
+  font-family: "Roboto";
+}
+.notmargin {
+  margin: 0px;
+  padding: 0px;
+}
+.footer1 {
+  padding: 20px;
+}
+.foot1Color {
+  background-color: #a77d6e;
+}
+.margin-footer1 {
+  margin-left: 450px;
+  margin-right: 130px;
+}
+.frase {
+  font-size: 1.5em;
+  color: white;
+}
+.frase2 {
+  font-size: 1.5em;
+  margin-left: 220px;
+  color: white;
+}
+.colaborar {
+  font-size: 2em;
+  color: white;
+}
+.footer2 {
+  padding: 60px;
+  color: white;
+  font-size: 16px;
+  line-height: 14px;
+}
+.foot2Color {
+  background-color: #694E4A;
+}
+.margin-footer2 {
+  margin-left: 4%;
+}
+.footTitulo {
+  padding-bottom: 3px;
+}
+.footer3 {
+  padding-top: 8px;
+  padding-bottom: 1px;
+  height: 12em;
+}
+.foot3Color {
+  background-color: #70423F;
+}
+.logoFooter {
+  width: 15%;
+  padding-bottom: 1px;
+  margin-left: 1%;
+}
+.copy {
+  color: white;
+  margin-top: 3em;
+  font-size: smaller;
+  text-align: center;
+}
+.form {
+  width: 70%;
+  margin-left: 15%;
+  padding: 3em;
+}
+.tituloForm {
+  font-size: 30px;
+  text-align: center;
+  color: #4e3a3b;
+  padding:3%;
+}
+.btnForm {
+  background-color: #4e3c3c;
+  color: white;
+}
+/*****************SECCIONES*********************/
+.logoSection {
+  position: center;
+  width: 50%;
+  padding: 20px;
+}
+.headSection {
+  background-color: #4e3c3c;
+}
+.seccion {
+  align-items: center;
+  width: fit-content;
+}
+.seccion p {
+  width: 90%;
+  margin: 5%;
+}
+.seccionImg {
+  width: 100%;
+}
+.imgSeccion{
+  width: 31%;
+  height:30%;
+  margin-right: 2%;
+}
+@media screen and (min-width: 450px) {
+  .overlay img {
+    width: 450px;
+    height: 350px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .bioob-objetivo {
+    padding: 4.5rem;
+  }
+  .description .text {
+    max-width: 650px;
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .overlay img {
+    width: 550px;
+    height: 450px;
+  }
+  .services img {
+    width: 90px;
+    height: 90px;
+  }
+  .services p {
+    font-size: 2.5rem;
+    line-height: 90px;
+  }
+  .services.vinculacion {
+    background-position: top left;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .slices img {
+    height: 100vh;
+  }
+  .overlay {
+    height: 100vh;
+    line-height: 100vh;
+  }
+  .overlay img {
+    width: 600;
+    height: 500px;
+  }
+  .services {
+    height: 550px;
+  }
+  .services div {
+    padding: 0 2.5rem;
+  }
+  .services img {
+    width: 120px;
+    height: 120px;
+  }
+  .services p {
+    font-size: 5rem;
+    line-height: 120px;
+    letter-spacing: 10px;
+  }
+  .services.capacitacion {
+    background-position: top;
+  }
+  .services.vinculacion {
+    background-position: center;
+  }
+  .description {
+    padding: 3.5rem;
+  }
+  .description .text {
+    max-width: 550px;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+}
