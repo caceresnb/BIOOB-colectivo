@@ -1,3 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Shadows+Into+Light&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
 .header {
   width: 100%;
   position: fixed;
@@ -52,6 +61,7 @@
   text-decoration: none;
   text-transform: uppercase;
   padding: 0.5rem 1rem;
+  margin: 0.5rem 0;
   border-radius: 20px;
 }
 .header--nav-links ul li a:hover {
@@ -182,9 +192,10 @@
   padding: 2.5rem;
 }
 .description .text {
+  font-family: "Shadows Into Light", cursive;
   max-width: 500px;
   margin: 0 auto;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   font-weight: 400;
 }
 
@@ -258,13 +269,12 @@ footer {
 .form {
   width: 70%;
   margin-left: 15%;
-  padding: 3em;
 }
 .tituloForm {
   font-size: 30px;
   text-align: center;
   color: #4e3a3b;
-  padding: 3%;
+  margin: 1.8rem 0;
 }
 .btnForm {
   background-color: #4e3c3c;
@@ -290,11 +300,13 @@ footer {
 }
 .seccionImg {
   width: 100%;
+  text-align: center;
 }
 .imgSeccion {
-  width: 31%;
+  width: 30%;
   height: 30%;
-  margin-right: 2%;
+  /* margin-right: 2%; */
+  margin: auto;
 }
 @media screen and (min-width: 450px) {
   .overlay img {
@@ -328,6 +340,9 @@ footer {
   }
   .services.vinculacion {
     background-position: top left;
+  }
+  .description .text {
+    font-size: 1.3rem;
   }
 }
 
@@ -371,5 +386,10 @@ footer {
     max-width: 550px;
     font-size: 1.2rem;
     font-weight: 400;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .description .text {
+    font-size: 1.4rem;
   }
 }
