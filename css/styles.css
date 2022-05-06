@@ -279,6 +279,24 @@ footer {
 .btnForm {
   background-color: #4e3c3c;
   color: white;
+  padding: 0.6rem;
+  margin-top: -0.5rem;
+  border: none;
+  border-radius: 6px;
+}
+.btnForm:hover {
+  animation: shake 500ms ease infinite;
+}
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  50% {
+    transform: translate(-1px, 1px) rotate(-10deg);
+  }
+  100% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
 }
 /*****************SECCIONES*********************/
 .logoSection {
