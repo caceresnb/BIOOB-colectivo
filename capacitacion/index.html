@@ -27,10 +27,12 @@
     />
 
     <!-- FONT-AWASOME -->
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    />
+    /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
     <!-- BOOSTRAP -->
     <!-- <link rel="stylesheet" href="./css/bootstrap.min.css" /> -->
@@ -44,50 +46,64 @@
     <!-- Animate On Scroll Library -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
-    <!-- FLICKITY -->
-    <link rel="stylesheet" href="./css/flickity.min.css" />
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./css/main.css" />
     <!-- CSS NATIVO -->
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
   </head>
 
   <body>
     <!-- NAVBAR MOBILE Y DESKTOP -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-danger fixed-top">
-      <div class="container-fluid">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- <a class="navbar-brand text-white" href="#">
-          <img src="./img/BIOOB-logo.png" class="logo-bioob" alt="logo BIOOB">
-        </a> -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
-            <li class="nav-item">
-              <a class="nav-link text-white" aria-current="page" href="#"></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#"></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#"></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#"></a>
-            </li>
-        </div>
+    <header class="header bg-header2">
+      <nav class="header--nav">
+        <i
+          style="color:#3E3E3E; font-size: 2rem"
+          class="fa-solid fa-bars"
+          id="menu-btn"
+        ></i>
+      </nav>
+      <div style="background-color:#713237;" class="header--nav-links" id="menu-toggle">
+        <ul>
+          <li>
+            <a href="../index.html" class="links-header2"><i
+              style="margin-right: 0.4rem; font-size: 1.4rem"
+              class="fa-solid fa-house"
+            ></i>Home</a>
+          </li>
+          <li>
+            <a href="index.html" class="links-header2"><i
+              class="fa-solid fa-person-chalkboard"
+              style="margin-right: 0.4rem; font-size: 1.4rem"
+            ></i>capacitación</a>
+          </li>
+          <li>
+            <a href="../vinculacion/" class="links-header2"><i
+              style="margin-right: 0.4rem; font-size: 1.4rem"
+              class="fa-solid fa-people-group"
+            ></i>vinculación</a>
+          </li>
+          <li>
+            <a href="../talleres/" class="links-header2"><i
+              style="margin-right: 0.4rem; font-size: 1.4rem"
+              class="fa-solid fa-people-carry-box"
+            ></i
+            >talleres</a>
+          </li>
+          <li>
+            <a href="../investigacion/" class="links-header2"><i
+              style="margin-right: 0.4rem; font-size: 1.4rem"
+              class="fa-brands fa-leanpub"
+            ></i
+            >investigación</a>
+          </li>
+          <li>
+            <a href="../contacto/" class="links-header2"><i
+              style="margin-right: 0.4rem; font-size: 1.4rem"
+              class="fa-solid fa-envelope"
+            ></i
+            >contacto</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </header>
     <!-- NAVBAR MOBILE Y DESKTOP -->
 
     <!-- HEADER -->
@@ -104,9 +120,9 @@
         <p class="tituloForm">Capacitación</p>
         <div class="seccion container-fluid w-100">
           <div class="seccionImg">
-            <img class="imgSeccion" src="img/Capacitacion_01.JPG" alt="seccion">
-            <img class="imgSeccion"src="img/Capacitacion_02.JPG" alt="seccion">
-            <img class="imgSeccion"src="img/Capacitacion_03.JPG" alt="seccion">
+            <img class="imgSeccion" src="../img/Capacitacion_01.JPG" alt="seccion">
+            <img class="imgSeccion"src="../img/Capacitacion_02.JPG" alt="seccion">
+            <img class="imgSeccion"src="../img/Capacitacion_03.JPG" alt="seccion">
           </div>
           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque totam numquam deleniti quis ipsam optio voluptates accusantium nisi, sit fugit at aspernatur, atque impedit sed doloremque odio. Nesciunt, molestiae accusantium.</p>
         </div>
@@ -130,7 +146,7 @@
                 </div>      
               </div>
               <div class="footer3 foot3Color footer__responsive2">
-                <img class= "logoFooter" src="./img/BIOOB-logo-blanco.png" alt="logo BIOOB">
+                <img class= "logoFooter" src="../img/BIOOB-logo-blanco.png" alt="logo BIOOB">
                 <p class="copy">©️ Copyright AlRoTa</p>
               </div>
             </div>
@@ -156,6 +172,7 @@
             integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
             crossorigin="anonymous"
           ></script>
+          <script src="../js/script.js"></script>
       
           <script>
             AOS.init({ once: "true" });

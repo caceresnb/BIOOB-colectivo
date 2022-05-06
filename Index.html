@@ -27,9 +27,16 @@
     />
 
     <!-- FONT-AWASOME -->
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
 
     <!-- BOOSTRAP -->
@@ -55,7 +62,7 @@
 
   <body>
     <!-- NAVBAR MOBILE Y DESKTOP -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow">
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow">
       <div class="container-fluid">
         <button
           class="navbar-toggler"
@@ -66,7 +73,7 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"><span>
+        <i style="color:#4c3b3b; font-size:2rem" class="fa-solid fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 color-marroon">
@@ -84,7 +91,74 @@
             </li>
         </div>
       </div>
-    </nav>
+    </nav> -->
+    <header class="header">
+      <nav class="header--nav">
+        <i
+          style="color: #4c3b3b; font-size: 2rem"
+          class="fa-solid fa-bars"
+          id="menu-btn"
+        ></i>
+      </nav>
+      <div class="header--nav-links" id="menu-toggle">
+        <ul>
+          <li>
+            <a href="index.html"
+              ><i
+                style="margin-right: 0.4rem; font-size: 1.4rem"
+                class="fa-solid fa-house"
+              ></i>
+              Home</a
+            >
+          </li>
+          <li>
+            <a href="./capacitacion/">
+              <i
+                class="fa-solid fa-person-chalkboard"
+                style="margin-right: 0.4rem; font-size: 1.4rem"
+              ></i>
+              capacitación
+            </a>
+          </li>
+          <li>
+            <a href="./vinculacion/">
+              <i
+                style="margin-right: 0.4rem; font-size: 1.4rem"
+                class="fa-solid fa-people-group"
+              ></i
+              >vinculacion</a
+            >
+          </li>
+          <li>
+            <a href="./investigacion/"
+              ><i
+                style="margin-right: 0.4rem; font-size: 1.4rem"
+                class="fa-solid fa-people-carry-box"
+              ></i
+              >talleres</a
+            >
+          </li>
+          <li>
+            <a href="./investigacion/">
+              <i
+                style="margin-right: 0.4rem; font-size: 1.4rem"
+                class="fa-brands fa-leanpub"
+              ></i
+              >investigacion</a
+            >
+          </li>
+          <li>
+            <a href="./contacto/">
+              <i
+                style="margin-right: 0.4rem; font-size: 1.4rem"
+                class="fa-solid fa-envelope"
+              ></i
+              >contacto</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
     <!-- NAVBAR MOBILE Y DESKTOP -->
 
     <!-- SECCION PRINCIPAL -->
@@ -117,85 +191,144 @@
     </main>
     <!-- SECCION PRINCIPAL -->
     <div class="overlay">
-      <img src="./img/BIOOB-logo-blanco.png" alt="logo BIOOB">
+      <img src="./img/BIOOB-logo-blanco.png" alt="logo BIOOB" />
     </div>
 
     <!-- SECCION MISION Y VISION -->
     <section class="container-fluid w-100 bg-primary">
       <div class="row text-center">
         <div class="col-12 col-md-6 bg-white color-marroon bioob-objetivo">
-          <h2 class="color-marroon fw-bold">MISIÓN</h2>
-          <p class="text-bioob">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          <h2 class="color-marroon my-3 fw-bold">MISIÓN</h2>
+          <p class="text-bioob">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </p>
         </div>
         <div class="col-12 col-md-6 bg-marroon text-white bioob-objetivo">
           <h2 class="text-white my-3 fw-bold">VISIÓN</h2>
-          <p class="text-bioob">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          <p class="text-bioob">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </p>
         </div>
       </div>
     </section>
     <!-- SECCION MISION Y VISION -->
 
     <!-- SECCION CAPACITACION -->
-    <section class="services capacitacion container-fluid d-flex align-items-end text-white text-uppercase">
+    <section
+      class="services capacitacion container-fluid d-flex align-items-end text-white text-uppercase"
+    >
       <div class="row w-100 mx-auto">
         <p class="col-8 fw-bold">capacitación</p>
-        <img class="col-4 ms-auto bg-capacitacion" src="./img/BIOOB-icono-capacitacion.png" alt="capacitacion icono">
+        <img
+          class="col-4 ms-auto bg-capacitacion"
+          src="./img/BIOOB-icono-capacitacion.png"
+          alt="capacitacion icono"
+        />
       </div>
     </section>
     <!-- SECCION CAPACITACION -->
 
     <div class="description container-fluid w-100 text-center text-white">
-      <p class="text">Enfocada a trabajadores de la construcción, promoviendo la recuperación de técnicas tradicionales y la revaloración del entorno construido de cada sitio</p>
+      <p class="text">
+        Enfocada a trabajadores de la construcción, promoviendo la recuperación
+        de técnicas tradicionales y la revaloración del entorno construido de
+        cada sitio
+      </p>
     </div>
 
     <!-- SECCION VINCULACIÓN -->
-    <section class="services vinculacion container-fluid d-flex align-items-end text-white text-uppercase">
+    <section
+      class="services vinculacion container-fluid d-flex align-items-end text-white text-uppercase"
+    >
       <div class="row w-100 mx-auto">
-        <img class="col-4 bg-vinculacion" src="./img/BIOOB-icono-capacitacion.png" alt="vinculacion icono">
+        <img
+          class="col-4 bg-vinculacion"
+          src="./img/BIOOB-icono-capacitacion.png"
+          alt="vinculacion icono"
+        />
         <p class="col-8 ms-auto text-end fw-bold">vinculación</p>
       </div>
     </section>
     <!-- SECCION VINCULACIÓN -->
 
-    <div class="description container-fluid w-100 text-center color-marroon bg-white">
-      <p class="text">Para el desarrollo de proyectos particulares en beneficio de la localidad de la mano de las autoridades municipales y otras organizaciones</p>
+    <div
+      class="description container-fluid w-100 text-center color-marroon bg-white"
+    >
+      <p class="text">
+        Para el desarrollo de proyectos particulares en beneficio de la
+        localidad de la mano de las autoridades municipales y otras
+        organizaciones
+      </p>
     </div>
 
     <!-- SECCION TALLERES -->
-    <section class="services talleres container-fluid d-flex align-items-end text-white text-uppercase">
+    <section
+      class="services talleres container-fluid d-flex align-items-end text-white text-uppercase"
+    >
       <div class="row w-100 mx-auto">
         <p class="col-8 fw-bold">talleres</p>
-        <img class="col-4 ms-auto bg-talleres" src="./img/BIOOB-icono-capacitacion.png" alt="talleres icono">
+        <img
+          class="col-4 ms-auto bg-talleres"
+          src="./img/BIOOB-icono-capacitacion.png"
+          alt="talleres icono"
+        />
       </div>
     </section>
     <!-- SECCION TALLERES -->
 
     <div class="description container-fluid w-100 text-center text-white">
-      <p class="text">Promoviendo la participación de voluntarios que quieran ser parte del desarrollo de los proyectos y aprender sobre las técnicas constructivas ancestrales</p>
+      <p class="text">
+        Promoviendo la participación de voluntarios que quieran ser parte del
+        desarrollo de los proyectos y aprender sobre las técnicas constructivas
+        ancestrales
+      </p>
     </div>
 
     <!-- SECCION INVESTIGACION -->
-    <section class="services investigacion container-fluid d-flex align-items-end text-white text-uppercase">
+    <section
+      class="services investigacion container-fluid d-flex align-items-end text-white text-uppercase"
+    >
       <div class="row w-100 mx-auto">
-        <img class="col-4 bg-investigacion" src="./img/BIOOB-icono-capacitacion.png" alt="investigacion icono">
+        <img
+          class="col-4 bg-investigacion"
+          src="./img/BIOOB-icono-capacitacion.png"
+          alt="investigacion icono"
+        />
         <p class="col-8 ms-auto text-end fw-bold">investigación</p>
       </div>
     </section>
     <!-- SECCION INVESTIGACION -->
 
-    <div class="description container-fluid w-100 text-center color-marroon bg-white">
-      <p class="text">Para el desarrollo de proyectos particulares en beneficio de la localidad de la mano de las autoridades municipales y otras organizaciones</p>
+    <div
+      class="description container-fluid w-100 text-center color-marroon bg-white"
+    >
+      <p class="text">
+        Para el desarrollo de proyectos particulares en beneficio de la
+        localidad de la mano de las autoridades municipales y otras
+        organizaciones
+      </p>
     </div>
 
-
-<footer>
+    <footer>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12 notmargin" data-aos="fade-up">
+          <div
+            class="col-lg-12 col-md-12 col-sm-12 notmargin"
+            data-aos="fade-up"
+          >
             <div class="footer1 foot1Color">
               <div class="footer__responsive2 margin-footer1">
                 <div>
-                  <p class= "frase">“Las grandes cosas se logran con una serie de pequeñas cosas juntas”.</p>
+                  <p class="frase">
+                    “Las grandes cosas se logran con una serie de pequeñas cosas
+                    juntas”.
+                  </p>
                   <p class="frase2">Vincent van Gogh.</p>
                 </div>
                 <div>
@@ -211,18 +344,21 @@
                 <p>777 4400116</p>
                 <p>55 4929 7649</p>
                 <p>correo: bioobcolectivo@gmail.com</p>
-                <p>facebook: BIOOB Colectivo</p> 
-              </div>      
+                <p>facebook: BIOOB Colectivo</p>
+              </div>
             </div>
             <div class="footer3 foot3Color footer__responsive2">
-              <img class= "logoFooter" src="./img/BIOOB-logo-blanco.png" alt="logo BIOOB">
+              <img
+                class="logoFooter"
+                src="./img/BIOOB-logo-blanco.png"
+                alt="logo BIOOB"
+              />
               <p class="copy">©️ Copyright AlRoTa</p>
             </div>
           </div>
         </div>
       </div>
-</footer> -->
-     
+    </footer>
 
     <!-- LIBRERIAS SCRIPT -->
     <script
@@ -243,6 +379,7 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/script.js"></script>
 
     <script>
       AOS.init({ once: "true" });

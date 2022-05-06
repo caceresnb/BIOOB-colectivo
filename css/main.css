@@ -130,16 +130,7 @@ footer {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap; }
-.header {
-  z-index: 30;
-  font-weight: 900;
-  background-color:  rgb(250, 252, 251);
-  display: flex;
-  justify-content: center;
-  position: fixed;
-  align-items: baseline;
-  margin-bottom: 3vw;
-  padding: 10px 80px 10px 80px; }
+
 
 .nav-item {
   margin-left: 10px;
@@ -665,9 +656,6 @@ footer {
     display: none; } 
 }
 @media (min-width: 768px) and (max-width: 992px)  {
-  header {
-    margin-left: 40%;
-  }
   .contactos {
     display: none; }
   .collapse {
