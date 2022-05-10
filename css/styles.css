@@ -216,21 +216,26 @@ footer {
   background-color: #a77d6e;
 }
 .margin-footer1 {
-  margin-left: 450px;
-  margin-right: 130px;
+  margin-left: 30%;
+  margin-right: 10%;
 }
 .frase {
   font-size: 1.5em;
   color: white;
+  text-align: center;
+  width: 90%;
 }
 .frase2 {
   font-size: 1.5em;
-  margin-left: 220px;
+  width: 90%;
   color: white;
+  text-align: center;
 }
 .colaborar {
   font-size: 2em;
   color: white;
+  text-align: center;
+  width: 90%;
 }
 .footer2 {
   padding: 60px;
@@ -312,9 +317,20 @@ footer {
   align-items: center;
   width: fit-content;
 }
-.seccion p {
+.seccionText {
   width: 90%;
-  margin: 5%;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-right: 5%;
+  margin-bottom: 10%;
+}
+.seccionTextContacto {
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 5%;
+  margin-right: 25%;
+  margin-bottom: 5%;
 }
 .seccionImg {
   width: 100%;
@@ -362,6 +378,7 @@ footer {
   .description .text {
     font-size: 1.3rem;
   }
+  .footer
 }
 
 @media screen and (min-width: 1024px) {
