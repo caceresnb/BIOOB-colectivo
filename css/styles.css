@@ -192,10 +192,9 @@
   padding: 2.5rem;
 }
 .description .text {
-  font-family: "Shadows Into Light", cursive;
   max-width: 500px;
   margin: 0 auto;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 400;
 }
 
@@ -378,7 +377,6 @@ footer {
   }
   .description .text {
     max-width: 650px;
-    font-size: 1.1rem;
   }
 }
 
@@ -399,9 +397,22 @@ footer {
     background-position: top left;
   }
   .description .text {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
-  .footer;
+  .seccionTextContacto {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.6rem;
+    max-width: 800px;
+  }
+  .seccionTextContacto p {
+    trasition: none;
+  }
+  .seccionTextContacto p:hover {
+    transform: scale(1.03);
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -442,16 +453,10 @@ footer {
   }
   .description .text {
     max-width: 550px;
-    font-size: 1.2rem;
     font-weight: 400;
   }
   .hormigasFooter {
     right: 50px;
     opacity: 0.8;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .description .text {
-    font-size: 1.4rem;
   }
 }
