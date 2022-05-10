@@ -342,6 +342,16 @@ footer {
   /* margin-right: 2%; */
   margin: auto;
 }
+
+.hormigasFooter {
+  position: absolute;
+  width: 19.4rem;
+  height: 32rem;
+  top: 0;
+  right: 0;
+  opacity: 0.6;
+}
+
 @media screen and (min-width: 450px) {
   .overlay img {
     width: 450px;
@@ -378,6 +388,7 @@ footer {
   .description .text {
     font-size: 1.3rem;
   }
+  .footer;
 }
 
 @media screen and (min-width: 1024px) {
@@ -420,6 +431,10 @@ footer {
     max-width: 550px;
     font-size: 1.2rem;
     font-weight: 400;
+  }
+  .hormigasFooter {
+    right: 50px;
+    opacity: 0.8;
   }
 }
 @media screen and (min-width: 1200px) {
