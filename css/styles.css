@@ -276,10 +276,11 @@ footer {
   margin-left: 15%;
 }
 .tituloForm {
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
   color: #4e3a3b;
-  margin: 1.8rem 0;
+  margin: 1.3rem 0;
+  font-weight: 700;
 }
 .btnForm {
   background-color: #4e3c3c;
